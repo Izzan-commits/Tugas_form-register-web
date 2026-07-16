@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - DISTRICT 6</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            min-height: 100vh;
+
+            /* Background */
+            background:
+            linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+            url("foto foto/foto awal.jpg") center/cover;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* ===== Box Register ===== */
+
+        .register{
+            width: 360px;
+
+            background: white;
+
+            padding: 35px;
+            border-radius: 18px;
+
+            box-shadow: 0 10px 30px rgba(0,0,0,.2);
+        }
+
+        /* ===== Judul ===== */
+
+        .logo{
+            text-align: center;
+
+            font-size: 24px;
+            font-weight: bold;
+
+            letter-spacing: 2px;
+
+            color: rgb(109, 1, 1);
+
+            margin-bottom: 10px;
+        }
+
+        h2{
+            text-align: center;
+
+            margin-bottom: 25px;
+
+            font-size: 18px;
+            color: #444;
+        }
+
+        /* ===== Form ===== */
+
+        label{
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        input{
+            width: 100%;
+
+            padding: 12px;
+
+            margin-top: 8px;
+            margin-bottom: 18px;
+
+            border: 1px solid #ccc;
+            border-radius: 8px;
+
+            outline: none;
+        }
+
+        input:focus{
+            border-color: rgb(109, 1, 1);
+        }
+
+        /* ===== Tombol ===== */
+
+        .btn-register{
+            display: block;
+
+            text-align: center;
+
+            background: rgb(109, 1, 1);
+            color: white;
+
+            padding: 12px;
+
+            border-radius: 8px;
+
+            text-decoration: none;
+
+            transition: .3s;
+        }
+
+        .btn-register:hover{
+            background: rgb(78, 1, 1);
+        }
+
+        /* ===== Link Login ===== */
+
+        p{
+            text-align: center;
+
+            margin-top: 18px;
+
+            font-size: 14px;
+            color: #555;
+        }
+
+        .login-link{
+            color: rgb(109, 1, 1);
+            font-weight: bold;
+
+            text-decoration: none;
+        }
+
+        .login-link:hover{
+            text-decoration: underline;
+        }
+
+        /* ===== Back ===== */
+
+        .back{
+            display: block;
+
+            text-align: center;
+
+            margin-top: 18px;
+
+            font-size: 13px;
+            color: #666;
+
+            text-decoration: none;
+        }
+
+        .back:hover{
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="register">
+
+        <div class="logo">DISTRICT 6</div>
+
+        <h2>Create Your Account</h2>
+
+        <form>
+
+            <label>Nama Lengkap</label>
+            <input type="text" placeholder="Masukkan nama lengkap">
+
+            <label>Username</label>
+            <input type="text" placeholder="Masukkan username">
+
+            <label>Email</label>
+            <input type="email" placeholder="Masukkan email">
+
+            <label>Password</label>
+            <input type="password" placeholder="Masukkan password">
+
+            <label>Konfirmasi Password</label>
+            <input type="password" placeholder="Ulangi password">
+
+            <a href="login.html" class="btn-register">Daftar</a>
+
+
+        </form>
+
+    </div>
+
+</body>
+</html>
